@@ -1,0 +1,59 @@
+.CuadroControles{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.CuadroControles .interior{
+    width: 80%;
+    background-color: #777a7f;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+.CuadroControles .interior .interiorEscenario{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.CuadroControles .interior .interiorControles{
+    position: relative;
+    width: 230px;
+    height: 180px;
+    display: flex;
+}
+.CuadroControles .AKeyword{
+    position: absolute;
+    top: 54px;
+    left: 10px;
+}
+.CuadroControles .WKeyword{
+    position: absolute;
+    left: 64px;
+}
+.CuadroControles .DKeyword{
+    position: absolute;
+    top: 54px;
+    left: 118px;
+}
+.CuadroControles .SKeyword{
+    position: absolute;
+    top: 54px;
+    left: 178px;
+}
+.CuadroControles .UpArrowKeyword{
+    position: absolute;
+    top: 110px;
+    left: 64px;    
+}
+.CuadroControles .DownArrowKeyword{
+    position: absolute;
+    top: 54px;
+    left: 64px;
+}

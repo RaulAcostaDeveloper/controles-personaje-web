@@ -1,0 +1,54 @@
+.containerModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.modal{
+    margin-top: 5px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: rgb(144, 167, 187);
+    color: black;
+}
+.modal .buttonClose{
+    margin-left: 190px;
+    margin-top: 10px;
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.modal .miInput{
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 4px;
+    border: none;
+}
+.modal .buttonEnviar{
+    margin: 60px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.candyIsActive button{
+    -webkit-box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.75);
+}
+.candyIsActive input{
+    -webkit-box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.75);
+}
