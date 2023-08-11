@@ -116,7 +116,7 @@ const CuadroControles = () => {
                         isActive = { isSActive }  
                         setActive = { setIsSActive }/>
                 </div>
-
+            <a className='liga' target='_blank' href='https://controles-personaje-web.vercel.app/'>Click aquí para ver la interfaz con controles</a>
             </div>
         </div>
     )

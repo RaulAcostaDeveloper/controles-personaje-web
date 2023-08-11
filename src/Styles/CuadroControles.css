@@ -3,8 +3,14 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
+    flex-wrap: wrap;
+}
+.CuadroControles .liga{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .CuadroControles .interior{
     width: 80%;
@@ -21,12 +27,14 @@
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
+
 }
 .CuadroControles .interior .interiorControles{
     position: relative;
     width: 230px;
     height: 180px;
     display: flex;
+
 }
 .CuadroControles .AKeyword{
     position: absolute;

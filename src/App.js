@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Controles mueven a personaje</h1>
+        <h1>Personaje que reacciona a los controles</h1>
       </header>
       <CuadroControles/>
     </div>
