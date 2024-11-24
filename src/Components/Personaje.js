@@ -98,6 +98,10 @@ const Personaje = ({ isAActive, isWActive, isDActive, isSActive, isEnterActive, 
         const characterElementStyle = document.getElementById('character').style;
         if (isJumping) {
             setImagen('jumpRight.png');
+            characterElementStyle.transition = "0.5s";
+            setTimeout(() => {
+                characterElementStyle.transition = "0s";
+            }, 500);
             characterElementStyle.bottom = '60px';
             setTimeout(() => {
                 characterElementStyle.bottom = '0px';
